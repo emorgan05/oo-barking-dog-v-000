@@ -12,3 +12,12 @@ class Dog
   end
 end
 
+goldberry = Dog.new
+goldberry.name = "Goldberry"
+puts goldberry.name
+goldberry.bark
+
+rayburn = Dog.new
+rayburn.name = "Rayburn"
+puts rayburn.name
+rayburn.bark
